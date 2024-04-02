@@ -17,6 +17,9 @@ jobs:
           npm install
           npm run build
 
+      - name: Change directory to docs
+        run: cd docs
+
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: 2.7
