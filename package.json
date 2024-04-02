@@ -1,6 +1,6 @@
 {
   "name": "rpg-cards",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "RPG card generator",
   "main": "generator/generate.html",
   "devDependencies": {
@@ -8,7 +8,7 @@
     "mv": "^2.1.1",
     "promise-streams": "^1.0.1",
     "request": "^2.88.2",
-    "request-promise-native": "^1.0.8",
+    "request-promise-native": "^0.0.0",
     "walk": "^2.3.14",
     "yauzl": "^2.10.0"
   },
@@ -18,14 +18,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/crobi/rpg-cards.git"
+    "url": "git+https://github.com/dungeons-and-pi/rpg-cards.git"
   },
   "author": "Robert Autenrieth",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/crobi/rpg-cards/issues"
+    "url": "https://github.com/dungeons-and-pi/rpg-cards/issues"
   },
-  "homepage": "https://github.com/crobi/rpg-cards#readme",
+  "homepage": "https://github.com/dungeons-and-pi/rpg-cards#readme",
   "dependencies": {
     "rimraf": "^3.0.2"
   }
