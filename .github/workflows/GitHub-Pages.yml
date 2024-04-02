@@ -31,6 +31,7 @@ jobs:
           # mv _site/* .
           rsync -av _site/ .
           rm -rf _site
+          sed -i '/assets\//d; /*.html/d' .gitignore
           cd ..
       
       - name: Move Docs
