@@ -6,5 +6,5 @@ _site/
 Gemfile.lock
 .bundle/
 vendor/bundle/
-assets/
-*.html
+
+# Temp
