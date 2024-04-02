@@ -17,9 +17,6 @@ jobs:
           npm install
           npm run build
 
-      - name: Change directory to docs
-        run: cd docs
-
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: 2.7
@@ -28,8 +25,8 @@ jobs:
       - name: Build Docs
         run: |
           cd docs
-          # gem install bundler
-          # bundle install
+          gem install bundler
+          bundle install
           bundle exec jekyll build
           mv _site/* .
           rm -rf _site
