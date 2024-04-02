@@ -16,8 +16,18 @@ jobs:
         run: |
           npm install
           npm run build
+
+      - name: Build Docs
+        run: |
+          cd docs
+          gem install bundler
+          bundle install
+          bundle exec jekyll build
+          mv _site/* .
+          rm -rf _site
+          cd ..
       
-      - name: docs
+      - name: Move Docs
         run: |
           cp -r docs generator/docs
           
