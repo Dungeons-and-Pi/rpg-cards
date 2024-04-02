@@ -1,0 +1,5 @@
+title: rpg-cards
+description: RPG spell/item/monster card generator
+baseurl: "/rpg-cards" # the subpath of your site, e.g. /blog
+url: https://dungeons-and-pi.github.io/ # the base hostname & protocol for your site, e.g. http://example.com
+show_downloads: true
